@@ -1,0 +1,17 @@
+<!--This Is html using css-->
+<html>
+    <head>
+        <title>Assignment No 1</title>
+         </head>
+         <link rel="stylesheet" href="connect.css" />
+
+         <body>
+            <h1>Creating A webpage</h1>
+            <p>Hello LetsUpgrade Peoples!</p1>
+            <p>Hello! Internet Peoples
+                My name is Akshay mugale.</p2>
+                <p>I'm From Pune. As Fresher. I Just Completed My degree from SPPU University.</p3>
+                <p>Thank You! ;)</p4>
+         </body>
+         <img src="https://media.letsupgrade.net/lms/program/EHTMLJUL123/image_1688551819117_HTML-_-CSS-3-Days.png" />
+</html>
