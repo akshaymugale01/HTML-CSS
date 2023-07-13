@@ -1,0 +1,19 @@
+h1{
+    color: #87ceeb;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 51px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    border: 100px 50px 50px 50px;
+}
+p{
+    color: yellowgreen;
+    background-color: rgb(21, 14, 14);
+    font-size: 20px;
+    text-align: start;
+    margin: 5px 5px 5px 5px;
+    border: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
