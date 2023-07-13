@@ -1,0 +1,32 @@
+.container{
+    border: 5px solid black;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cards{
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+}
+
+#card1{
+    background: Blue;
+}
+
+#card2{
+    background: green;
+}
+
+#card3{
+    background: yellowgreen;
+}
+
+.center1{
+    display: block;
+    margin-left: auto;
+    width: 100%;
+}
