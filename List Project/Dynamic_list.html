@@ -22,6 +22,7 @@
     // Function to add a new item
     function addItem() {
       const newItemText = newItemInput.value;
+      //This condition checks if the trimmed value of newItemText is not an empty string. trim() removes any leading and trailing whitespace from the input value
       if (newItemText.trim() !== '') {
         const newItem = document.createElement('li');
         newItem.textContent = newItemText;
