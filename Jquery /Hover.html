@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Corrected jQuery Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .box {
+      width: 200px;
+      height: 150px;
+      background-color: #f0f0f0;
+      margin: 20px;
+      padding: 10px;
+      text-align: center;
+      color: #333;
+      cursor: pointer; /* Add cursor pointer to indicate clickability */
+    }
+    .highlight {
+      border: 2px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="box" id="box1">Box 1</div>
+  <div class="box" id="box2">Box 2</div>
+
+  <script>
+    $(document).ready(function() {
+      // Click event for Box 1
+      $('#box1').on('click', function() {
+        $(this).css({
+          'background-color': '#008CBA',
+          'color': '#fff'
+        });
+        setTimeout(function() {
+          $('#box2').hide();
+        }, 2500);
+      });
+
+      // Click event for Box 2
+      $('#box2').on('click', function() {
+        $(this).css({
+          'background-color': '#ff0000',
+          'color': '#00ff00'
+        });
+       setTimeout(function() {
+    $('#box1').show();
+  }, 2000);
+      });
+      
+       // Hover effect for box 2 without removing hover
+       $('#box2').hover(function(){
+         $(this).addClass('highlight');
+       })
+      // Hover effect for Box 1
+      $('#box1').hover(function() {
+        $(this).addClass('highlight');
+      }, function() {
+        $(this).removeClass('highlight');
+      });
+    });
+  </script>
+</body>
+</html>
